@@ -1,3 +1,5 @@
+
+
 .header {
   display: flex;
   justify-content: space-between;
@@ -33,6 +35,7 @@
 .generos {
   display: flex;
   gap: 8px;
+  cursor: pointer;
 }
 
 .generos i {
@@ -40,19 +43,27 @@
 }
 
 .genreMenu {
-  margin-top: 10px;
   display: flex;
   flex-direction: column;
-
-  margin-left: 280px;
   gap: 10px;
 
   background-color: rgb(53, 53, 53);
-  width: 90px;
+  width: 500px;
+  height: 200px;
 
   border-radius: 4px;
   padding: 12px;
-
+  text-align: center;
   align-items: center;
+  justify-content: center;
   position: absolute;
+
+  margin: auto;
+
+  left: -50%;
+  right: -50%;
+
+  top: 0;
+  bottom: 0;
+  z-index: 2;
 }

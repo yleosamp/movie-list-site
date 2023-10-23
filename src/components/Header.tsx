@@ -18,7 +18,7 @@ const Header = (props: Props) => {
         <tr>
           <td><a href="/">Home</a></td>
           <td className={ style.generos }
-            onMouseEnter={ () => setGenreMenu(true) }
+            onClick={ () => setGenreMenu(!showGenreMenu) }
             //onMouseLeave={ () => setGenreMenu(false)  }
             >
             <i className='material-icons'>arrow_downward</i>Gêneros
@@ -32,10 +32,12 @@ const Header = (props: Props) => {
       </header>
       { showGenreMenu 
         ? (
-          <div className={ style.genreMenu }>
-            <a onClick={ () => props.setGenreFilter(28) }>Ação</a>
-            <a onClick={ () => props.setGenreFilter(35) }>Comédia</a>
-            <a onClick={ () => props.setGenreFilter(27) }>Terror</a>
+          <div className={ style.glow }>
+            <div className={ style.genreMenu }>
+              <a onClick={ () => props.setGenreFilter(28) }>Ação</a>
+              <a onClick={ () => props.setGenreFilter(35) }>Comédia</a>
+              <a onClick={ () => props.setGenreFilter(27) }>Terror</a>
+            </div>
           </div>
       ) : ''
       }

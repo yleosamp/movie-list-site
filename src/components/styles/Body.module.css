@@ -12,14 +12,14 @@
   background-color: rgb(53, 53, 53);
   border-radius: 8px;
 
-  width: 200px;
+  width: 230px;
 
   text-align: center;
 }
 
 .movie img {
   border-radius: 8px 8px 0px 0px;
-  height: 300px;
+  height: 345px;
 }
 
 .movie p {
