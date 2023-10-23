@@ -1,0 +1,11 @@
+body {
+  background-color: #121212;
+  color: #FFF;
+  margin: 0;
+  font-family: 'Ubuntu', sans-serif;
+}
+
+a {
+  text-decoration: none;
+  color: #FFF;
+}

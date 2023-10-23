@@ -1,0 +1,58 @@
+.header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  background-color: rgb(53, 53, 53);
+  height: 40px;
+}
+
+.header tr {
+  display: flex;
+  gap: 40px;
+  margin-left: 200px;
+}
+
+.header input {
+  margin-right: 200px;
+
+  border: 0;
+  border-radius: 4px;
+  background-color: #F5F5F5;
+
+  padding-left: 10px;
+  box-sizing: border-box;
+}
+
+.header div {
+  display: flex;
+  gap: 10px;
+}
+
+/* GENEROS */
+
+.generos {
+  display: flex;
+  gap: 8px;
+}
+
+.generos i {
+  font-size: 20px;
+}
+
+.genreMenu {
+  margin-top: 10px;
+  display: flex;
+  flex-direction: column;
+
+  margin-left: 280px;
+  gap: 10px;
+
+  background-color: rgb(53, 53, 53);
+  width: 90px;
+
+  border-radius: 4px;
+  padding: 12px;
+
+  align-items: center;
+  position: absolute;
+}
